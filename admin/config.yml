@@ -2,32 +2,33 @@ backend:
 name: git-gateway
 branch: main
 
-
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
-
-locale: es
-publish_mode: simple
-site_url: "/"
-
-
 collections:
-- label: "Contenido"
-name: "content"
+- name: settings
+label: Settings
 files:
-- label: "Listado de fotos"
-name: "photosData"
-file: "data/photos.json"
+- name: photos
+label: Photos
+file: data/photos.json
 format: json
 fields:
-- label: "Fotos"
-name: "photos"
+- label: Photos
+name: photos
 widget: list
-summary: "{{fields.title}}"
 fields:
-- { label: "ID", name: "id", widget: "uuid" }
-- { label: "Título", name: "title", widget: "string" }
-- { label: "Imagen", name: "image", widget: "image" }
-- { label: "Etiquetas", name: "tags", widget: "list", default: [] }
-- { label: "Fecha", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+- label: Title
+name: title
+widget: string
+- label: Image
+name: image
+widget: image
+- label: Tags
+name: tags
+widget: list
+default: []
+- label: Date
+name: date
+widget: datetime
+format: YYYY-MM-DD
