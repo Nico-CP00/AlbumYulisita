@@ -1,34 +1,34 @@
 backend:
-name: git-gateway
-branch: main
+  name: git-gateway
+  branch: main
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-- name: settings
-label: Settings
-files:
-- name: photos
-label: Photos
-file: data/photos.json
-format: json
-fields:
-- label: Photos
-name: photos
-widget: list
-fields:
-- label: Title
-name: title
-widget: string
-- label: Image
-name: image
-widget: image
-- label: Tags
-name: tags
-widget: list
-default: []
-- label: Date
-name: date
-widget: datetime
-format: YYYY-MM-DD
+  - name: settings
+    label: Settings
+    files:
+      - name: photos
+        label: Photos
+        file: data/photos.json
+        format: json
+        fields:
+          - label: Photos
+            name: photos
+            widget: list
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Image
+                name: image
+                widget: image
+              - label: Tags
+                name: tags
+                widget: list
+                default: []
+              - label: Date
+                name: date
+                widget: datetime
+                format: YYYY-MM-DD
