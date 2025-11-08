@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>///Álbum de Fotitos con el Amor de mi Vida\\\</title>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="site-header">
+<h1>Álbum de Fotos</h1>
+<nav>
+<a href="/admin/">Panel /admin</a>
+</nav>
+</header>
+
+<main>
+<section class="toolbar">
+<input id="search" type="search" placeholder="Buscar por título" />
+<select id="tagFilter">
+<option value="">Todas las etiquetas</option>
+</select>
+</section>
+
+<section id="gallery" class="gallery" aria-live="polite"></section>
+</main>
+
+<div id="lightbox" class="lightbox" aria-modal="true" role="dialog" hidden>
+<button id="closeLightbox" class="close" aria-label="Cerrar">×</button>
+<img id="lightboxImg" alt="" />
+<div id="lightboxCaption" class="caption"></div>
+</div>
+
+<footer class="site-footer">Hecho con ❤ de mi para ti jiji— Edita desde <a href="/admin/">/admin</a></footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
