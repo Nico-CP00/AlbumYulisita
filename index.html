@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>///Álbum de Fotitos con el Amor de mi Vida\\\</title>
-<link rel="stylesheet" href="/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Álbum Bonito</title>
+
+  <!-- Fuentes elegantes y cute -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Nunito:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-<header class="site-header">
-<h1>Álbum de Fotos</h1>
-<nav>
-<a href="/admin/">Panel /admin</a>
-</nav>
-</header>
+  <div class="page">
+    <header class="header">
+      <div class="title-block">
+        <h1 class="album-title">Pequeños momentos bonitos</h1>
+        <p class="album-subtitle">Un álbum de cosas que me hacen feliz ✨</p>
+      </div>
+    </header>
 
-<main>
-<section class="toolbar">
-<input id="search" type="search" placeholder="Buscar por título" />
-<select id="tagFilter">
-<option value="">Todas las etiquetas</option>
-</select>
-</section>
+    <main>
+      <section class="filters">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Buscar por título o nota..."
+        />
+        <select id="tagFilter">
+          <option value="">Todas las etiquetas</option>
+        </select>
+      </section>
 
-<section id="gallery" class="gallery" aria-live="polite"></section>
-</main>
+      <section id="gallery" class="gallery">
+        <!-- Aquí se insertan las fotos desde script.js -->
+      </section>
+    </main>
 
-<div id="lightbox" class="lightbox" aria-modal="true" role="dialog" hidden>
-<button id="closeLightbox" class="close" aria-label="Cerrar">×</button>
-<img id="lightboxImg" alt="" />
-<div id="lightboxCaption" class="caption"></div>
-</div>
+    <footer class="footer">
+      Hecho con cariño 💗
+    </footer>
+  </div>
 
-<footer class="site-footer">Hecho con ❤ de mi para ti jiji— Edita desde <a href="/admin/">/admin</a></footer>
+  <!-- Lightbox (visor grande) -->
+  <div id="lightbox" class="lightbox hidden">
+    <div class="lightbox-inner">
+      <button id="lightboxClose" class="lightbox-close" aria-label="Cerrar">×</button>
+      <img id="lightboxImg" src="" alt="">
+      <div class="lightbox-text">
+        <h2 id="lightboxTitle"></h2>
+        <p id="lightboxNote"></p>
+        <div id="lightboxTags" class="tag-row"></div>
+      </div>
+    </div>
+    <div class="lightbox-backdrop"></div>
+  </div>
 
-<script src="/app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
