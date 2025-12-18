@@ -1,5 +1,5 @@
-// Lista de fotos de tu álbum.
-// Para cada foto, pon el archivo dentro de /photos y agrega un objeto aquí.
+// Lista de fotos del álbum.
+// Para cada foto, poner el archivo dentro de /photos y agrega el objeto aquí
 const photos = [
   {
     src: "photos/foto1.jpg",
@@ -13,7 +13,7 @@ const photos = [
     note: "Conversaciones largas y risas suaves.",
     tags: ["café", "momentos", "amor"]
   }
-  // Agrega más objetos así 👇
+  // Estructura para agregar nuevas fotos
   // {
   //   src: "photos/archivo.jpg",
   //   title: "Título que quieras",
@@ -22,7 +22,7 @@ const photos = [
   // }
 ];
 
-// ====== Render de la galería ======
+// Render de la galería 
 const galleryEl = document.getElementById("gallery");
 const searchInput = document.getElementById("searchInput");
 const tagFilter = document.getElementById("tagFilter");
