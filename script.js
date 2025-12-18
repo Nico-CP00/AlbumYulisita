@@ -2,17 +2,103 @@
 // Para cada foto, poner el archivo dentro de /photos y agrega el objeto aquí
 const photos = [
   {
-    src: "photos/foto1.jpg",
+    src: "photos/foto1.jpeg",
     title: "Atardecer rosado",
-    note: "Ese día me sentí muy en paz 💗",
-    tags: ["atardecer", "tranqui", "bonito"]
+    note: "Ese día me sentí muy en paz 💗"
   },
   {
-    src: "photos/foto2.jpg",
+    src: "photos/foto2.jpeg",
     title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves.",
-    tags: ["café", "momentos", "amor"]
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto3.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto4.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto5.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto6.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto7.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto8.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto9.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto10.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto11.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto12.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },{
+    src: "photos/foto13.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },{
+    src: "photos/foto14.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },{
+    src: "photos/foto15.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto16.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto17.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto18.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto19.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
+  },
+  {
+    src: "photos/foto20.jpeg",
+    title: "Café con alguien especial",
+    note: "Conversaciones largas y risas suaves."
   }
+  
   // Estructura para agregar nuevas fotos
   // {
   //   src: "photos/archivo.jpg",
