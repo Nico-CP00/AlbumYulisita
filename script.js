@@ -3,100 +3,100 @@
 const photos = [
   {
     src: "photos/foto1.jpeg",
-    title: "Atardecer rosado",
-    note: "Ese día me sentí muy en paz 💗"
+    title: "Primera Fotito",
+    note: "La primera fotito de mi amorsita en mi celu jeje."
   },
   {
     src: "photos/foto2.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Primer 14 de Febrero",
+    note: "Aunque no lo celebramos como tal, salimos y fue muy bonito el dia con mi Yulisita."
   },
   {
     src: "photos/foto3.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Templo Bahá'í",
+    note: "Fotito de mi hermosa en el templito."
   },
   {
     src: "photos/foto4.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "No Quebrada de Macul",
+    note: "Cuando nos confundimos pero aun así fue una bonita salida porque estuvimos juntitos."
   },
   {
     src: "photos/foto5.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Salida en Bici a Parque Bicentenario",
+    note: "Salida bonito donde fuimos muy lejitos en bici."
   },
   {
     src: "photos/foto6.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Nuestras Empanaditas",
+    note: "18 de septiembre cuando hicimos empanadas de atún."
   },
   {
     src: "photos/foto7.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Yulisita y Emirsillo",
+    note: "Mi hermosisima con el corderito travieso."
   },
   {
     src: "photos/foto8.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Nosotros jiji",
+    note: "Fotito de yo con mi tesorita."
   },
   {
     src: "photos/foto9.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Yuliprofe",
+    note: "Mi Yulisita enseñándole a un mini humano."
   },
   {
     src: "photos/foto10.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Yuliprofe 2",
+    note: "Mi Yulisita vestida de profe y se ve muy hermosa y tierna."
   },
   {
     src: "photos/foto11.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Nosotros De Nuevo",
+    note: "Yo pelucón y mi Yuli hermosa como siempre."
   },
   {
     src: "photos/foto12.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Yulisita Preciosa Posando",
+    note: "Tan hermosa y perfecta mi Yuliii😻."
   },{
     src: "photos/foto13.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Yulisita Aesthetic",
+    note: "Mi bby muy aesthetic posando con su ropita bonita."
   },{
     src: "photos/foto14.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Nosotros Camino a la U",
+    note: "En la micrito cuando nuestros horarios coincidian."
   },{
     src: "photos/foto15.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Otra Fotito",
+    note: "Fotito random de nosotros dos donde te ves preciosa como siempre jeje."
   },
   {
     src: "photos/foto16.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "En Coquimbo",
+    note: "Vacaciones con mi Yulisita en Coquimbo😮."
   },
   {
     src: "photos/foto17.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "En Cerrito Calán",
+    note: "Fotito en el cerrito donde se veía todo bonito aunque habia mucho esmog aaa."
   },
   {
     src: "photos/foto18.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Otra Fotito Random",
+    note: "Fotito con mi Yulisita elegante."
   },
   {
     src: "photos/foto19.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Otra Fotito Random Más",
+    note: "Tan preciosa que se ve mi amorsita."
   },
   {
     src: "photos/foto20.jpeg",
-    title: "Café con alguien especial",
-    note: "Conversaciones largas y risas suaves."
+    title: "Yulisita Jinx",
+    note: "Yulisita maquilladita que se ve muy preciosita y bacán😮."
   }
   
   // Estructura para agregar nuevas fotos
